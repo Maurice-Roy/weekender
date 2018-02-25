@@ -1,5 +1,6 @@
 .Nav {
-
+  font-family: 'Butcherman', cursive;
+  
 }
 
 .Search {
@@ -8,9 +9,22 @@
   align-items: center;
 }
 
+.Search-by-text {
+
+}
+
+.Search-selection {
+  margin-left: 2%;
+  margin-right: 3%;
+}
+
+.Search-input {
+
+}
+
 .Sort {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 

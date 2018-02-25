@@ -8,7 +8,7 @@ class PaintingContainer extends React.Component {
   state = ({
     filterText: '',
     filterSelection: 'title',
-    sort: 'title',
+    sort: 'year inverted',
     paintings: []
   })
 

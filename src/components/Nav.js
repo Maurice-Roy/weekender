@@ -8,13 +8,13 @@ const Nav = (props) => {
   return (
     <div className='Nav'>
       <div className='Search'>
-        <p>SEARCH BY:</p>
-        <select onChange={props.updateFilterSelection} name="" id="">
+        <p className='Search-by-text'>SEARCH BY:</p>
+        <select className='Search-selection' onChange={props.updateFilterSelection} name="" id="">
           <option value="title">TITLE</option>
           <option value="artist">ARTIST</option>
           <option value="museum">MUSEUM</option>
         </select>
-        <input onChange={props.updateFilterText} type="text"/>
+        <input className='Search-input' onChange={props.updateFilterText} type="text"/>
       </div>
       <div className='Sort'>
         <div className='Sort-title'>
