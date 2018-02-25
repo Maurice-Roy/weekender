@@ -1,0 +1,32 @@
+.Painting-card {
+  height: 324px;
+  width: 200px;
+  border: 1px solid black;
+  margin: 2%;
+}
+
+.Painting-card:hover {
+  box-shadow: 0 0 1px 1px rgb(82, 82, 82);
+}
+
+.Painting-image-container {
+  /* border-radius: 7%; */
+  margin: 5%;
+  max-width: 90%;
+  max-height: 60%;
+  filter: grayscale(100%);
+  overflow: hidden;
+  display: flex;
+  /* filter: hue-rotate(180deg) invert(100%) grayscale(50%); */
+}
+
+.Painting-image {
+  max-width: 100%;
+  overflow: hidden;
+  align-self: center;
+  clip: auto;
+}
+
+.Painting-image-container:hover {
+  filter: none;
+}

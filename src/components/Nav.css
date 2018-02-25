@@ -1,0 +1,32 @@
+.Nav {
+
+}
+
+.Search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sort {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Sort-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sort-year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sort-icon {
+  height: 7%;
+  width: 7%;
+}
