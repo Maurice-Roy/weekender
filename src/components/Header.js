@@ -5,7 +5,7 @@ import logo from '../logo.svg'
 const Header = (props) => {
   return (
     <div>
-      <img src={logo} className="App-logo" alt="logo" />
+      {/* <img src={logo} className="App-logo" alt="logo" /> */}
       <h1 className="App-title">GALLERY</h1>
       {/* <header className="App-header">
         <img src='' className="App-logo" alt="logo" />

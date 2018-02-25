@@ -1,6 +1,6 @@
 .Painting-card {
-  height: 324px;
-  width: 200px;
+  height: 405px;
+  width: 250px;
   border: 1px solid black;
   margin: 2%;
 }
@@ -29,4 +29,44 @@
 
 .Painting-image-container:hover {
   filter: none;
+}
+
+
+/*TEXT*/
+
+.Text-container {
+  text-transform: uppercase;
+  margin: 5%;
+  /* border: 1px solid black; */
+}
+
+.Painting-title {
+  font-weight: 900;
+  margin-top: 15px;
+  font-size: 10pt;
+
+}
+
+.Painting-artist {
+  margin-top: -9px;
+  font-size: 8pt;
+}
+
+.Painting-date {
+  margin-top: -5px;
+  font-size: 8pt;
+}
+
+.Painting-museum-name {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 8pt;
+  font-style: italic;
+}
+
+.Painting-museum-location {
+  margin-top: -10px;
+  font-weight: 300;
+  font-size: 8pt;
+  font-style: italic;
 }

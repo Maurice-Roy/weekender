@@ -72,6 +72,7 @@ class PaintingContainer extends React.Component {
     if (date === null) {
       date = '2018'
     }
+    date = date.split(' ').join('')
     let numsArray = []
     let charsArray = date.split('')
     charsArray.forEach(char => {
