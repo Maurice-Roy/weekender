@@ -5,11 +5,10 @@
   margin: 2%;
   position: relative;
   /* filter: grayscale(80%); */
-  filter: hue-rotate(180deg) invert(100%) grayscale(50%);
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.47);
 
   font-family: 'Butcherman', cursive;
   transition: 1.5s ease;
-  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.47);
 }
 
 .Painting-card-front {
@@ -18,6 +17,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  filter: hue-rotate(180deg) invert(100%) grayscale(50%);
+  transition: 1.5s ease;
 }
 
 .Painting-card-back {
@@ -45,6 +46,9 @@
   height: 485px;
   width: 300px;
   box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.47);
+}
+
+.Painting-card:hover .Painting-card-front {
   filter: none;
 }
 
