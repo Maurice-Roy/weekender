@@ -1,6 +1,6 @@
 .Nav {
   font-family: 'Butcherman', cursive;
-  
+
 }
 
 .Search {
@@ -15,11 +15,45 @@
 
 .Search-selection {
   margin-left: 2%;
-  margin-right: 3%;
+  margin-right: 2%;
+  -webkit-appearance: none;
+  border-radius: 0px;
+  background-color: white;
+  text-align-last:center;
+  font-family: 'Butcherman', cursive;
+
 }
 
-.Search-input {
+.Search-selection:focus {
+  outline: none;
+}
 
+SELECT, select:hover, select:checked
+{ background: #000 !important;
+border: 1px solid black !important;
+color: white !important; }
+
+select > option
+{ color: #ff7a7a !important;
+  -moz-appearance: none !important;
+ }
+
+select:focus > option:checked
+{ color: #BFFDFF !important;
+text-shadow: 1px 0px 0px !important;
+background: #000 !important;
+-moz-appearance: none !important; }
+
+
+.Search-input {
+  -webkit-appearance: none;
+  border-radius: 20px;
+  font-family: 'Butcherman', cursive;
+  
+}
+
+.Search-input:focus {
+  outline: none;
 }
 
 .Sort {
@@ -32,15 +66,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: -5%;
 }
 
 .Sort-year {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: -5%;
 }
 
 .Sort-icon {
   height: 7%;
   width: 7%;
+}
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
 }

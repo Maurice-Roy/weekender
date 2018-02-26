@@ -1,11 +1,13 @@
 .Painting-card {
   height: 405px;
   width: 250px;
-  border: 1px solid black;
+  border: 1px solid rgb(142, 142, 142);
   margin: 2%;
   position: relative;
-  filter: grayscale(75%);
+  filter: grayscale(80%);
   font-family: 'Butcherman', cursive;
+  transition: 1.5s ease;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.47);
 }
 
 .Painting-card-front {
@@ -38,24 +40,28 @@
 }
 
 .Painting-card:hover {
-  box-shadow: 0 0 1px 1px rgb(82, 82, 82);
+  height: 485px;
+  width: 300px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.47);
   filter: none;
-  transition: filter 2s;
 }
 
 .Painting-image-container {
+  /* border: 1px solid black; */
   /* border-radius: 7%; */
   margin: 5%;
   max-width: 90%;
   max-height: 60%;
   overflow: hidden;
   display: flex;
+  justify-content: center;
   /* filter: hue-rotate(180deg) invert(100%) grayscale(50%); */
 }
 
 .Painting-image {
   object-fit: cover;
   overflow: hidden;
+
 }
 
 .Painting-image-container:hover {
@@ -83,7 +89,8 @@
   font-weight: 900;
   margin-top: 0px;
   font-size: 14pt;
-  text-shadow: 2px 2px 2px #FF0000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  /* text-shadow: 2px 2px 2px #FF0000; */
 }
 
 .Painting-artist {
