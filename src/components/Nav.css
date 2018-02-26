@@ -49,7 +49,7 @@ background: #000 !important;
   -webkit-appearance: none;
   border-radius: 20px;
   font-family: 'Butcherman', cursive;
-  
+  text-align-last:center;
 }
 
 .Search-input:focus {
